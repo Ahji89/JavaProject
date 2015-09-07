@@ -1,0 +1,11 @@
+
+public class Ani_main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Animal cat = new Animal("길냥이", 100);
+		System.out.println("고양이 이름 : " + cat.name + ", 고양이 몸무게 : " + cat.weight + "kg");
+	}
+
+}

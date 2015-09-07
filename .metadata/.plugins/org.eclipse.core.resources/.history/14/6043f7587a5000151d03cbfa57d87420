@@ -1,0 +1,48 @@
+
+public class Animal {
+	String name = "냥이";
+	int weight = 400;
+	
+	Animal(){
+		print();
+	}
+	
+	Animal(String a, int b){
+		name = a;
+		weight = b;
+		print();
+	}
+	
+	Animal(Animal copy){
+		name = copy.name;
+		weight = copy.weight;
+	}
+	
+	int add(int i, int j){
+		weight = i + j;
+		return weight;
+	}
+	
+	int sub(int i, int j){
+		if(i < j)
+			weight = j - i;
+		else
+			weight = i - j;
+		
+		return weight;
+	}
+	
+	void print(){
+		System.out.println("이름 : " + name + ", 몸무게 : " + weight + "kg");
+	}
+	
+	String setName(String a){
+		name = a;
+		return name;
+	}
+	
+	int setWeight(int b){
+		weight = b;
+		return weight;
+	}
+}

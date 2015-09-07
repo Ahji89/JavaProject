@@ -1,0 +1,40 @@
+
+public class Ani_main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Animal cat = new Animal();
+		Animal dog = new Animal();
+		Animal elephant = new Animal();
+		
+		cat.name = "냥이";
+		cat.weight = 300;
+		
+		dog.name = "멍돌이";
+		dog.weight = 500;
+		
+		elephant.name = "코돌이";
+		elephant.weight = 15000;
+		
+		cat.setName("냥이");
+		cat.setWeight(300);
+		
+		dog.setName("멍돌이");
+		dog.setWeight(500);
+		
+		elephant.setName("코끼리");
+		elephant.setWeight(15000);
+		
+		System.out.println("고양이 이름 : " + cat.name + ", 고양이 몸무게 : " + cat.weight + "kg");
+		System.out.println("강아지 이름 : " + dog.name + ", 강아지 몸무게 : " + dog.weight + "kg");
+		System.out.println("코끼리 이름 : " + elephant.name + ", 코끼리 몸무게 : " + elephant.weight + "kg");*/
+		
+		Animal cat1 = new Animal("냥이", 150);
+		System.out.println("고양이 이름 : " + cat1.name + ", 고양이 몸무게 : " + cat1.weight + "kg");
+		
+		Animal cat2 = new Animal(cat1);
+		cat2.name = "길냥이";
+		System.out.println("고양이 이름 : " + cat2.name + ", 고양이 몸무게 : " + cat2.weight + "kg");
+	}
+
+}

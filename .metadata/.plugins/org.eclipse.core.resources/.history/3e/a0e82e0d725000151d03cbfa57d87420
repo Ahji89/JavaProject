@@ -1,0 +1,25 @@
+
+public class Animal {
+	String name = "≥…¿Ã";
+	int weight = 400;
+	
+	Animal(String a, int b){
+		name = a;
+		weight = b;
+	}
+	
+	Animal(Animal copy){
+		name = copy.name;
+		weight = copy.weight;
+	}
+	
+	String setName(String a){
+		name = a;
+		return name;
+	}
+	
+	int setWeight(int b){
+		weight = b;
+		return weight;
+	}
+}
