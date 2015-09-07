@@ -3,7 +3,6 @@ package src;
 public class Animal {
 	String name;
 	int weight;
-	static String id = "abcd";
 	
 	Animal(){
 		name = "≥…¿Ã";
