@@ -7,13 +7,15 @@ public class MyTV_main {
 	public static void main(String[] args) {
 		MyTV tv = new MyTV();
 		tv.tvOn();
-	    tv.channelUp();
-	    tv.channelDown();
-	    tv.channelUp();
+		tv.setChannel(0);
+		
+	
 	    tv.channelDown();
 	    
-	    tv.volumeUp();
-	    tv.volumeUp();
+	    tv.channelUp();
+	 
+	    
+	
 	    tv.voulmeDown();
 	    tv.voulmeDown();
 	    tv.volumeUp();
